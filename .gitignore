@@ -1,0 +1,8 @@
+.classpath
+.factorypath
+.project
+.settings/
+target/
+
+/app/src/main/resources/config.properties
+/tmp/

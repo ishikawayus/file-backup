@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: bundle
-          path: tmp/dist/file-backup-0.1.0-SNAPSHOT.zip
+          path: tmp/file-backup-0.1.0-SNAPSHOT.zip

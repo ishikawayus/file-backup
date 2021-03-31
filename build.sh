@@ -16,7 +16,7 @@ unzip -d tmp/jdk tmp/jdk.zip
 
 jlink --compress=2 --no-header-files --no-man-pages --output tmp/dist/jre --module-path tmp/jdk/jdk-11.0.10+9/jmods --add-modules java.base,java.logging,java.management,java.naming,java.sql,java.xml
 
-cp tmp/commons-daemon/amd64/prunsrv.exe tmp/dist/prunsrv.exe
+cp tmp/commons-daemon/prunsrv.exe tmp/dist/prunsrv.exe
 
 cp app/target/file-backup-0.1.0-SNAPSHOT.jar tmp/dist/file-backup-0.1.0-SNAPSHOT.jar
 
